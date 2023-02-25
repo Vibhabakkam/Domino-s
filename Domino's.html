@@ -10,9 +10,10 @@
     <title>Domino's Pizza
     </title>
     <style>
-        * {
-            margin: 0%;
-            padding: 0%;
+        #screen {
+            width: 100%;
+            height: 2000px;
+            border: 2px solid black;
         }
 
         #navdiv {
@@ -74,46 +75,128 @@
             display: flex;
         }
 
+        #domimg {
+            margin-left: 600px;
+            margin-top: -378px;
+        }
+
         #dominos {
             margin-top: 100px;
             margin-left: 100px;
         }
-        #dominos>div:nth-child(1){
+
+        #dominos>div:nth-child(1) {
             color: white;
             font-size: 40px;
-        } 
-        #dominos>div:nth-child(2){
+        }
+
+        #dominos>div:nth-child(2) {
             color: #2789b7;
             font-size: 20px;
+        }
+
+        #dominos>div:nth-child(3) button {
+            height: 60px;
+            width: 400px;
+            background-color: #1eab26;
+            font-size: 33px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            margin-top: 30px;
+        }
+
+        #dominos>div:nth-child(4) img {
+            margin-top: 10px;
+        }
+
+        #homediv {
+            height: 30px;
+            color: #1a5ca3;
+            background-color: #ced6df;
+            font-size: 20px;
+            padding-top: 12px;
+            margin-top: 30px;
+        }
+        #Coupons{
+            font-size: 40px;
+            font-weight: 400;
+            color: #6484a7;
+             width: 300px;
+             margin-left: 100px;
+        }
+        #cashback{
+            display: flex;
+        }
+        #cashback>div:nth-child(1) img{
+            height: 400px;
+            width: 650px;
+            margin-left: 100px;
+        }
+        #cashback>div:nth-child(2) img{
+            height: 400px;
+            width: 650px;
+            margin-left: 30px;
+        }
+        #explore{
+            font-size: 40px;
+            font-weight: 400;
+            color: #6484a7;
+             width: 300px;
+             margin-left: 100px;
+             margin-top: 80px;
+        }
+        #Exploresec{
+            display: flex;
+            justify-content: space-around;
         }
     </style>
 </head>
 
 <body>
-    <div id="navdiv">
-        <div>
-            <img src="https://www.dominos.co.in/assets/Logo.png" alt="">
-        </div>
-        <div>
-            <div>OUR MENU</div>
-            <div>DOMINO'S STORES</div>
-            <div>GIFT CARD</div>
-            <div>CORPORATE ENQUIRY</div>
-            <div>CONTACT</div>
-            <button>Dowload app</button>
-        </div>
-    </div>
-    <div id="bodydiv">
-        <div>
-            <div id="dominos">
-            <div>Domino's online ordering
+    <div id="screen">
+ 
+        <div id="navdiv">
+            <div>
+                <img src="https://www.dominos.co.in/assets/Logo.png" alt="">
             </div>
-            <div>Yummy pizza delivered fast & fresh 
+            <div>
+                <div>OUR MENU</div>
+                <div>DOMINO'S STORES</div>
+                <div>GIFT CARD</div>
+                <div>CORPORATE ENQUIRY</div>
+                <div>CONTACT</div>
+                <button>Dowload app</button>
             </div>
-
         </div>
-        <div></div>
-        <img src="https://www.dominos.co.in/assets/header_bg.png" alt="">
+        <div id="bodydiv">
+            <div>
+                <div id="dominos">
+                    <div>Domino's online ordering
+                    </div>
+                    <div>Yummy pizza delivered fast & fresh
+                    </div>
+                    <div><button>ORDER ONLINE NOW</button></div>
+                    <div><img src="https://www.dominos.co.in/assets/banner_brand_20210922.jpg" alt=""></div>
+                </div>
+                <div></div>
+                <div id="domimg"><img src="https://www.dominos.co.in/assets/header_bg.png" alt=""></div>
+            </div>
+        </div>
+        <div id="homediv">Home</div>
+        <div id="Coupons"><p>Coupons & Offers
+        </p></div>
+        <div id="cashback">
+            <div><img src="https://api.dominos.co.in/prod-olo-api/images/amazon_home_20210412.jpg" alt=""></div>
+            <div><img src="https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg" alt=""></div>
+        </div>
+        <div id="explore">Explore</div>
+        <div id="Exploresec">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 </body>
 
