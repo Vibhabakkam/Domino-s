@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/06489297db.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino’s</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #screen {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        #navdiv {
+            height: 100px;
+            width: 100%;
+        }
+
+        #navtop {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        #navtop>div:nth-child(1) {
+            background-color: #0066a7;
+            width: 45%;
+            display: flex;
+            color: white;
+
+        }
+
+        #navtop>div:nth-child(1)>i {
+            font-size: 30px;
+            margin-left: 50px;
+            margin-top: 18px;
+        }
+
+        #navtop>div:nth-child(1)>img {
+            height: 35px;
+            margin-left: 35px;
+            margin-top: 8px;
+        }
+
+        #navtop>div:nth-child(2) {
+            display: flex;
+            background-color: #0066a7;
+            border-left: 1px solid white;
+            width: 18%;
+            color: white;
+        }
+
+        #navtop>div:nth-child(2)>div:nth-child(1) {
+            margin-top: 15px;
+            display: flex;
+            width: 40%;
+            justify-content: space-evenly;
+            font-size: 18px;
+        }
+
+        #navtop>div:nth-child(2)>div:nth-child(2) {
+            margin-top: 15px;
+            display: flex;
+            width: 40%;
+            font-size: 15px;
+            margin-left: 20px;
+            justify-content: space-evenly;
+            color: #37bdef;
+        }
+        #navtop>div:nth-child(3) {
+            display: flex;
+            background-color: #005899;
+            width: 23%;
+            color: white;
+        }
+        #navtop>div:nth-child(3)>div:nth-child(1) {
+            margin-top: 15px;
+            font-size: 25px;
+            margin-left: 15px;
+            
+        }
+        #navtop>div:nth-child(3)>div:nth-child(2) {
+            margin-top: 3px;
+            margin-left: 15px;
+            
+        }
+        #navtop>div:nth-child(3)>div:nth-child(3) {
+            margin-top: 18px;
+            margin-left: 18px;
+            
+        }
+        #navtop>div:nth-child(4) {
+            display: flex;
+            background-color: #0066a7;
+            width: 14%;
+            color: white;
+        }
+        #navtop>div:nth-child(4)>i{
+            margin-left: 10px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        #navtop>div:nth-child(4)>p{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        #navdown {
+            height: 40px;
+            width: 100%;
+            display: flex;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="navdiv">
+            <div id="navtop">
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                    <img src="https://pizzaonline.dominos.co.in/static/assets/logo_white.svg" alt="">
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <P>Delivery</P>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle"></i>
+                        <p>pick up/Dine in</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <span style="font-size: 20px; ">
+                            <p> Select Location</p></span> 
+                       <span style="color: #37bdef;"> <p> select location for accruate menu listing</p></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <p>MY ACCOUNT <br> <span style="color: #37bdef;" >LOGIN|SINGUP</span></p>
+                </div>
+            </div>
+            <div id="navdown"> </div>
+        </div>
+        <div id="bodydiv">
+
+        </div>
+    </div>
+</body>
+
+</html>
